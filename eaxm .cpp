@@ -98,6 +98,11 @@ using namespace std;
 class score 
 {
     friend int operator +(int a,score&b);
+/**
+(int a,score&b)
+左邊 (第一個參數 a)：必須是一個 int（整數）。
+右邊 (第二個參數 b)：必須是一個 score 物件。
+**/
     int math ;
     int computer;
     int total;
